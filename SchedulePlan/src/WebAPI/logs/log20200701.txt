@@ -1,0 +1,10 @@
+2020-07-01 08:34:10.187 +03:00 [ERR] An error occurred while migrating or seeding the database.
+System.InvalidOperationException: Relational-specific methods can only be used when the context is using a relational database provider.
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetRelationalService[TService](IInfrastructure`1 databaseFacade)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at SchedulePlan.WebAPI.Program.Main(String[] args) in C:\Users\922311\github.com\satem02\learn\schedule-plan\schedule-plan\SchedulePlan\src\WebAPI\Program.cs:line 49
+2020-07-01 08:36:03.049 +03:00 [ERR] An error occurred while migrating or seeding the database.
+System.InvalidOperationException: Relational-specific methods can only be used when the context is using a relational database provider.
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetRelationalService[TService](IInfrastructure`1 databaseFacade)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at SchedulePlan.WebAPI.Program.Main(String[] args) in C:\Users\922311\github.com\satem02\learn\schedule-plan\schedule-plan\SchedulePlan\src\WebAPI\Program.cs:line 49
